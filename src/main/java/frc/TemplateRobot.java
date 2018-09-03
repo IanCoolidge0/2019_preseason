@@ -1,21 +1,21 @@
-package org.usfirst.frc.team2342.robot;
+package frc;
 
-
+import edu.wpi.first.wpilibj.IterativeRobot;
 //Import all the required subsystems, commands, automodes, etc.
 
-public class Robot extends IterativeRobot {
+public class TemplateRobot extends IterativeRobot {
 
     //Create the required variables such as talons, subsystems, joysticks, camera
 	
     //Robot Constructor
     //Initialize all the variables
-	public Robot() {
+	public TemplateRobot() {
         
-		
 	}
     // Called once when the robot is deployed
     // Use for things such as setting up the cameras
-	@Override
+    
+    @Override
 	public void robotInit() {
         
 		

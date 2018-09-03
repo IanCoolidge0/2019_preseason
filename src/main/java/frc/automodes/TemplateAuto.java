@@ -1,4 +1,4 @@
-package org.usfirst.frc.team2342.automodes;
+package frc.automodes;
 
 import edu.wpi.first.wpilibj.command.CommandGroup;
 

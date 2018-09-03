@@ -1,4 +1,4 @@
-package org.usfirst.frc.team2342.robot.subsystems;
+package frc.subsystems;
 
 import edu.wpi.first.wpilibj.command.Subsystem;
 
@@ -14,5 +14,10 @@ public class TemplateSubsystem extends Subsystem {
 	
     //Create different methods for the subsytem
     //eg. set velocity , reset the sensors, etc
-	
+    
+    protected void initDefaultCommand() {
+        // Set the default command for a subsystem here.
+        // setDefaultCommand(new DefaultCommand());
+        // Do not need to set default command
+    }
 }
