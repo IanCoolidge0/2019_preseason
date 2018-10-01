@@ -3,13 +3,13 @@ package frc;
 import edu.wpi.first.wpilibj.IterativeRobot;
 //Import all the required subsystems, commands, automodes, etc.
 
-public class TemplateRobot extends IterativeRobot {
+public class Robot extends IterativeRobot {
 
     //Create the required variables such as talons, subsystems, joysticks, camera
 	
     //Robot Constructor
     //Initialize all the variables
-	public TemplateRobot() {
+	public Robot() {
         
 	}
     // Called once when the robot is deployed
